@@ -1,1 +1,18 @@
+:root{
+    --roxo:  #64007D;
+    --rosa:  #BF4EC1;
+    --preto:  #000000;
+    --branco:  #ffffff;
+    --verde:  #00FF19;
 
+}
+
+.cabecalho{
+    background-color: var(--roxo);
+
+}
+
+.logo {
+    width:  10%;
+    
+}
