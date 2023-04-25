@@ -27,7 +27,6 @@
     margin-right: 1100px;
 }
 
-
 .menu-item{
     display: inline-block;
     padding: 10px;
@@ -36,8 +35,25 @@
     font-size: 30px;
 }
 .principal{
-    background-color: var(--verde);
-    background-image: linear-gradient(var(--roxo),var(--verde));
+    background-image: linear-gradient(var(--roxo),var(--branco));
+    display: flex; 
+    justify-content: center;
+    
 }
     
+.principal-titulo{   
+    font-size: 85px;
+    
+}
+
+.principal-texto{
+padding: 35px;
+font-size: 45px;
+}
+
+.principal.imagem{
+padding: 30px;
+font-size: 30px;
+}
+
 
