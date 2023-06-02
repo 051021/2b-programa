@@ -1,59 +1,11 @@
+@import url("style/header.css");
+
 :root{
-    --roxo:  #64007D;
-    --rosa:  #BF4EC1;
-    --preto:  #000000;
-    --branco:  #ffffff;
-    --verde:  #00FF19;
-
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
+    --laranja: #EB9B00;
+    --azul-degrade:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
-
-
-*{
-    margin: 0;
-    padding: 0;
+body{
+    background-color: var(--cor-de-fundo);
 }
-
-.cabecalho{
-    background-color: var(--roxo);
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.logo {
-    width:  8%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 1100px;
-}
-
-.menu-item{
-    display: inline-block;
-    padding: 10px;
-    margin-top: 36px;
-    color: var(--verde);
-    font-size: 30px;
-}
-.principal{
-    background-image: linear-gradient(var(--roxo),var(--branco));
-    display: flex; 
-    justify-content: center;
-    
-}
-    
-.principal-titulo{   
-    font-size: 85px;
-    
-}
-
-.principal-texto{
-padding: 35px;
-font-size: 45px;
-}
-
-.principal.imagem{
-padding: 30px;
-font-size: 30px;
-}
-
-

@@ -1,36 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Family Açai</title>
+    <title>Alurabook</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabecalho">
-      <img class="logo" src="acai .png" alt="">
-      <ul class="menu">
-          <li class="menu-item">Cardapio </li>
-          <li class="menu-item">copos</li>
-          <li class="menu-item">Delivery</li>        
-      </ul>
-
-    </header>
-    <main>
-      <section class="principal">
-        <div class="texto-e-titulo>">
-          <h1 class="principal__titulo">Family Açai</h1>
-          <p class="principal__texto">Olá, somos o Family Açai. Com o obejtivo de vender os melhores açai da região, 
-            e expandir cada vez mais o nosso negocio ofrencendo um cardapio amplio e cheio para que possa pedir seu 
-            açai de camadinha.</p>
-          <p class="principal__texto">NÃO DEIXE PRA AMANHÃ O AÇAÍ QUE VOCÊ PODE TOMAR HOJE!!😋❤️</p>
-          <p class="PARA MAIS INFORMAÇÕES ENTRE EM CONTATO. (45) 99585488📞"></p>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+            <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label> 
+            <ul class="lista-menu">
+                <li class="lista__menu-titulo">categorias</li>
+                <li class="lista__menu">
+                    <a href="#" class="lista-meu__limk">programação</a>
+                </li>
+                <li class="lista__menu">
+                    <a href="#" class="lista-meu__limk">front-end</a>
+                </li>
+                <li class="lista__menu">
+                    <a href="#" class="lista-meu__limk">infraestrutura</a>
+                </li>
+                <li class="lista__menu">
+                    <a href="#" class="lista-meu__limk">business</a>
+                </li>
+                <li class="lista__menu">
+                    <a href="#" class="lista-meu__limk">desig & UX</a>
+                </li>
+            </ul>
+            <img class="container__imagem" src="img/Logo.svg" alt="Logo Alura">
         </div>
-      <img src="imagem-acai.png" alts="" class="principal-imagem">
-      </section>
-    </main>
-    <footer>
-    </footer>
+        <div class="container">
+            <a href="#"><img class="container__imagem" src="img/Favoritos.svg" alt=""></a>
+            <a href="#"><img class="container__imagem" src="img/Compras.svg" alt=""></a>
+            <a href="#"><img class="container__imagem" src="img/Usuario.svg" alt=""></a>
+        </div>
+    </header>
 </body>
 </html>
